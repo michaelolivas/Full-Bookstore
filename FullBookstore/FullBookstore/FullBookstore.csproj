@@ -59,6 +59,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Booklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booklist.Designer.cs">
+      <DependentUpon>Booklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Books.cs" />
+    <Compile Include="Bookstore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookstore.Designer.cs">
+      <DependentUpon>Bookstore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerList.cs">
       <SubType>Form</SubType>

@@ -25,14 +25,14 @@ namespace FullBookstore
 
         private void buttonManageBooks_Click(object sender, EventArgs e)
         {
-            BookManager store = new BookManager();
+            Booklist store = new Booklist();
             store.Show();
             Hide();
         }
 
         private void buttonPlaceOrder_Click(object sender, EventArgs e)
         {
-            BookStoreGUI store = new BookStoreGUI();
+            Bookstore store = new Bookstore();
             store.Show();
             Hide();
         }
