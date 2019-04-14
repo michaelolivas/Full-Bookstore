@@ -18,7 +18,7 @@ namespace FullBookstore
         }
         private void buttonManageCustomers_Click(object sender, EventArgs e)
         {
-            CustomerPortal store = new CustomerPortal();
+            CustomerList store = new CustomerList();
             store.Show();
             Hide();
         }

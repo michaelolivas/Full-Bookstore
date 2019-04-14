@@ -268,7 +268,7 @@ namespace FullBookstore
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            MainMenu store = new MainMenu();
+            Menu store = new Menu();
             store.Show();
             Hide();
         }
