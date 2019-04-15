@@ -176,7 +176,7 @@ namespace FullBookstore
                 }
                 else
                 {
-                    MessageBox.Show("Customer already exists. Please select from combo box.");
+                    MessageBox.Show("Customer already exists. Please select from drop down menu.");
                     ClearTextBoxes();
                     comboBox.Enabled = true;
 
@@ -191,18 +191,6 @@ namespace FullBookstore
                 connection.Close();
             }
         }
-
-        //string CreateCustomerJSON(string username, Customer newCustomer)
-        //{
-        //    //Create employee dictionary
-        //    Dictionary<string, Customer> tempCustomer = new Dictionary<string, Customer>
-        //        {
-        //            { username, newCustomer }
-        //        };
-
-        //    //Make JSON string from dictionary
-        //    return JsonConvert.SerializeObject(tempCustomer, Formatting.Indented);
-        //}
         private void ComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             SelectedItem = (string)comboBox.SelectedItem;
